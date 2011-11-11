@@ -1,0 +1,309 @@
+
+dy * {
+	margin:0;
+	padding:0;
+}
+
+body {
+	margin:0;
+	padding:0;
+	background-color:#fff;
+	color:#333;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:85%;
+	
+	
+	background-color:#fff;
+	background-image:url(/images/body_bg.gif);
+	background-position:50% 50px;
+	background-repeat:no-repeat;
+	
+}
+h1, h2, h3, h4 {font-weight: bold}
+h1 {
+	font-family:Arial;
+	font-size:2em;
+	margin-bottom:.5em;
+	padding:8px 0;
+	color:#922239;
+}
+
+.home h1 {
+	border-top:1px solid #66c3e1;
+	border-bottom:1px solid #66c3e1;
+}
+
+h2 {
+	font-size: 20px;
+	margin:0 0 15px 0;
+	padding:0;
+}
+
+h3 {
+	font-size: 16px;
+	margin:5px 0 0 0;
+	padding:0;	
+}
+
+
+p {
+	margin-bottom:1.6em;
+	line-height:1.3em;
+}
+
+a {
+	color:#666;
+	text-decoration:underline;
+}
+
+a:hover {
+	text-decoration:none;
+}
+
+.clear { clear:both; }
+
+
+#outer {width:960px;margin:0 auto;}
+
+/******************************************/
+/*                   nav                  */
+
+#navigation h3 {
+	margin-top:30px;
+	width:158px;
+	height:84px;
+	overflow:hidden;
+	background-image:url(/images/logo_acva.gif);
+	background-repeat:no-repeat;
+	text-indent:-999px;	
+}
+
+#navigation ul {
+	
+	height:55px;
+	overflow:hidden; 
+	background-image:url(/images/nav_bg.gif);
+	background-repeat:no-repeat;
+}
+
+.home #navigation ul {
+	background-image:url(/images/nav_bg_home.gif);	
+}
+
+#navigation ul {
+	position:relative;	
+	list-style:none;
+}
+
+
+#navigation li a {
+	display:block;
+	position:absolute;
+	width:175px;
+	height:50px;
+	
+	background-position:left top;
+	background-repeat:no-repeat;
+	text-indent:-999px;
+	
+	/*border:1px solid  #336699;*/
+	
+	
+}
+
+#navigation #nav_home a {
+	top:0;
+	left:0;
+	
+	background-image:url(/images/nav_icon_home.gif);
+	background-position:12px 5px;
+	
+	
+}
+
+#navigation #nav_mission a {
+	top:0;
+	left:190px;
+	background-image:url(/images/nav_icon_mission.gif);
+	background-position:15px 10px;
+}
+
+
+#navigation #nav_govcom a {
+	top:0;
+	left:375px;
+	background-image:url(/images/nav_icon_govcom.gif);
+	background-position:10px 10px;
+}
+
+#navigation #nav_join a {
+	top:0;
+	left:547px;
+	background-image:url(/images/nav_icon_join.gif);
+	background-position:11px 10px;
+}
+
+#navigation #nav_home a:hover, 
+.home #navigation #nav_home a 
+{
+	background-position:12px -160px;
+}
+
+#navigation #nav_mission a:hover,
+#mission #navigation #nav_mission a {
+	background-position:15px -160px;
+}
+
+#navigation #nav_govcom a:hover,
+#govcom #navigation #nav_govcom a {
+	background-position:10px -160px;
+}
+
+#navigation #nav_join a:hover,
+#join #navigation #nav_join a  
+{
+	background-position:11px -160px;
+}
+
+
+
+/******************************************/
+/*                 content               */
+
+#content {
+	padding:30px 20px;
+	background-image:url(/images/bg_content.gif);
+	background-repeat:repeat-y;
+	background-position:left top;
+	
+}
+
+.home #content {
+	background-image:url(/images/bg_content_home.gif);
+	background-repeat:no-repeat;
+	background-color:#bde5f2;
+}
+
+#content #primary {
+	float:left;
+	width:60%;	
+}
+
+#content #secondary {
+	float:left;
+	width:40%;
+}
+
+.home #content #primary {
+	width:320px;
+	margin-right: 20px;
+}
+
+.home #content #secondary {
+	width:420px;
+	
+}
+
+.home #content #tertiary {
+	width:160px;
+	float: right;	
+	text-align: center;
+}
+
+.home #content #tertiary img {
+	margin-bottom: 20px;
+	border: 0;
+}
+
+#playercontainer {
+	border:5px solid #ffffff;
+	width:400px;
+}
+
+#content ul {
+	list-style:disc;
+	margin:1em 1.3em 2em 1.3em;
+}
+
+#content ul li {
+	list-style:disc;
+	margin-bottom:.4em;	
+}
+
+#content .committee_member {
+	clear:both;
+	margin-bottom:35px;	
+	
+}
+
+#content .committee_member img{
+	float:left;
+	width:200px;
+	margin:10px 40px 0 0;
+	
+}
+
+
+#content .committee_member .info{
+	float:left;
+	width:450px;
+	margin-top:10px;
+}
+
+
+
+/******************************************/
+/*                  footer                */
+
+#footer {
+	clear:both;
+	padding-top:25px;
+	
+	background-image:url(/images/bg_footer.gif);	
+	background-repeat:no-repeat;
+	background-position:left top;
+	
+	font-size:80%;
+	
+	
+}
+
+#footer ul {
+	float:left;
+	width:60%;
+	list-style:none;	
+}
+
+#footer ul li {
+	display:inline;
+	padding-right:10px;	
+	list-style:none;
+}
+
+#footer #copyright {
+	float:right;
+	text-align:right;
+	width:40%;	
+}
+
+.home #footer {
+	background-image:url(/images/bg_footer_home.gif);
+}
+
+/** clearfix **/
+
+.clearfix:after {
+        visibility: hidden;
+        display: block;
+        content: " ";
+        clear: both;
+        height: 0;
+        }
+.clearfix { display: inline-table; }
+/* Hides from IE-mac \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* End hide from IE-mac */
+
+
+
